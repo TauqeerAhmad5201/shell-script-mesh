@@ -17,3 +17,16 @@ ls
 
 var=$((3+9))
 echo $var
+
+# managing the inputs 
+
+#!/bin/bash
+
+echo "Enter a numner"
+read a
+
+echo "Enter a numner"
+read b
+
+var=$((a+b))
+echo $var
