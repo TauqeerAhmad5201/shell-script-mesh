@@ -11,3 +11,9 @@ echo "Hello World"
 # listing the file 
 #!/bin/sh
 ls
+
+# numerical expression
+#!/bin/bash
+
+var=$((3+9))
+echo $var
