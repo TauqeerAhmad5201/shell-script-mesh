@@ -4,6 +4,7 @@ Shell scripts have several required constructs that tell the shell environment w
 
 The shell is, after all, a real programming language, complete with variables, control structures, and so forth. No matter how complicated a script gets, it is still just a list of commands executed sequentially.
 
+#! -> she-bang
 # echo the Hello World
 #!/bin/bash
 echo "Hello World"
