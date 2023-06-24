@@ -30,3 +30,10 @@ read b
 
 var=$((a+b))
 echo $var
+
+# finding area of circle 
+
+cho "Enter the radius : "
+read r
+echo "Area of the Circle is"
+echo "3.14 * $r * $r" | bc
