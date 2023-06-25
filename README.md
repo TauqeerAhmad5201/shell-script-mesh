@@ -41,3 +41,8 @@ echo "3.14 * $r * $r" | bc
 
 ## Shell script to calculate gross salary
 
+#!/bin/bash
+echo "enter the basic salary:"
+read basal
+grosal=$( echo "$basal+((40/100)*$basal)+((20/100)*$basal)" | bc -l)
+echo "The gross salary : $grosal"
