@@ -46,3 +46,20 @@ echo "enter the basic salary:"
 read basal
 grosal=$( echo "$basal+((40/100)*$basal)+((20/100)*$basal)" | bc -l)
 echo "The gross salary : $grosal"
+
+## 
+
+#!/bin/bash
+
+millennium_text="Years since the millennium:"
+
+current_time=$( date '+%H:%M:%S' )
+todays_date=$( date '+%F' )
+year=$( date '+%Y' )
+
+echo "Current time:" $current_time
+echo "Today's date:" $todays_date
+
+years_since_Y2K=$(( year - 2000 ))
+
+echo $millennium_text $years_since_Y2K
