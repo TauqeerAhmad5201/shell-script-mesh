@@ -63,3 +63,10 @@ echo "Today's date:" $todays_date
 years_since_Y2K=$(( year - 2000 ))
 
 echo $millennium_text $years_since_Y2K
+
+
+#!/bin/bash
+
+echo "Wait for 5 seconds"
+sleep 5
+echo "Completed"
