@@ -8,7 +8,7 @@ The shell is, after all, a real programming language, complete with variables, c
 # echo the Hello World
 #!/bin/bash
 
-echo "Hello "
+echo "Hello World"
 
 # listing the file 
 #!/bin/sh
